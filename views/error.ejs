@@ -1,0 +1,15 @@
+<% layout('layout') -%>
+<div class="login-page">
+  <h1>Login Page</h1>
+  <div class="form">
+    <form class="login-form" method="post" action="/login">
+      <input type="text" id="username" name="login" placeholder="username"/>
+      <input type="password" id="password" name="pass" placeholder="password"/>
+      <p style="color: red">Wrong Username or Password</p>
+      <button type="submit" id="btn">login</button>
+      <a href="/">Register</a>
+    </form>
+  </div>
+</div>
+
+<script src="/javascript/script.js" charset="utf-8"></script>

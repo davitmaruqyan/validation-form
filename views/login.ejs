@@ -1,0 +1,16 @@
+<% layout('layout') -%>
+<div class="login-page">
+  <h1>Login Page</h1>
+  <div class="form">
+    <form class="login-form" method="post" action="/login">
+      <input type="text" id="username" name="login" placeholder="username"/>
+      <input type="password" id="password" name="pass" placeholder="password"/>
+
+      <button type="submit" id="btn">login</button>
+      <a href="/">Register</a>
+      <a href="facebook/login">Facebook</a>
+    </form>
+  </div>
+</div>
+
+<script src="/javascript/script.js" charset="utf-8"></script>

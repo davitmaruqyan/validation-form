@@ -1,0 +1,30 @@
+<% layout('layout') -%>
+<div class="testbox">
+  <h1>Registration</h1>
+
+  <form method="post" action="/">
+  <hr>
+  <label id="icon" for="name"><i class="icon-envelope "></i></label>
+  <input type="text" name="email" id="email" placeholder="Email" required/>
+  <span class="erremail"></span>
+  <label id="icon" for="name"><i class="icon-user"></i></label>
+  <input type="text" name="name" id="name" placeholder="Name" required/>
+  <span class="errname"></span>
+  <label id="icon" for="name"><i class="icon-user"></i></label>
+  <input type="text" name="surname" id="surname" placeholder="Surname" required/>
+  <span class="errsurname"></span>
+  <label id="icon" for="name"><i class="icon-shield"></i></label>
+  <input type="password" name="password" id="password" placeholder="Password" required/>
+  <span class="errpassword"></span>
+  <div class="gender">
+    <input type="radio" value="Male" id="male" name="gender"/>
+    <label for="male" class="radio">Male</label>
+    <input type="radio" value="Female"  id="female" name="gender" />
+    <label for="female" class="radio" >Female</label>
+   </div>
+      <a href="/login" class="button">Login</a>
+   <button id="btn" type="submit" class="button">Register</button>
+  </form>
+</div>
+
+<script src="/javascript/script.js" charset="utf-8"></script>
